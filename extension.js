@@ -1,4 +1,3 @@
-/* -*- mode: js2 - indent-tabs-mode: nil - js2-basic-offset: 4 -*- */
 const St = imports.gi.St;
 const Meta = imports.gi.Meta;
 const Lang = imports.lang;
@@ -6,9 +5,9 @@ const Main = imports.ui.main;
 const Tweener = imports.ui.tweener;
 const Clutter = imports.gi.Clutter;
 
-const SHADE_TIME = 0.3;
-const SHADE_BRIGHTNESS = -0.3;
-const SHADE_DESATURATION = 0.5;
+const SHADE_TIME = 0.2;
+const SHADE_BRIGHTNESS = -0.1;
+const SHADE_DESATURATION = 0.2;
 
 let on_window_created;
 
